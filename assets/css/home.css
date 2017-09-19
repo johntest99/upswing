@@ -1,0 +1,186 @@
+/* herobanner styles */
+
+#herobanner {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    /* background-position: right top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.filter:before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.ups-container {
+    position: relative;
+    width: 45%;
+}
+
+.ups-banner-content {
+    margin-top: 250px
+}
+
+.text-slide {
+    overflow: visible;
+    z-index: 1;
+}
+
+.banner-text {
+    font-size: 100px;
+    font-family: roboto-bold;
+    text-align: center;
+    line-height: 1;
+}
+
+.cta {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* about */
+
+#about {
+    height: 60%;
+    position: relative;
+}
+
+.about-greeting {
+    font-size: 50px;
+    font-family: roboto-medium;
+}
+
+.about-text {
+    font-size: 25px;
+    font-family: roboto-medium;
+    line-height: 1;
+}
+
+.about-button-cta {
+    font-size: 20px;
+}
+
+.mascot-image {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    width: 53%;
+}
+
+/* cta-one */
+
+#cta-one {
+    height: 30%;
+}
+
+.cta-text {
+    color: white;
+    position: relative;
+    font-size: 50px;
+    line-height: 1;
+}
+
+/* service */
+
+.service-icon {
+    font-size: 2em;
+}
+
+.service-title {
+    font-family: roboto-bold;
+    font-size: 30px; 
+}
+
+.service-desc {
+    font-family: roboto-regular; 
+    font-size: 18px;
+    color: #2d3e52;
+    width: 80%;
+    line-height: 25px;
+}
+
+/* testimonies */
+
+.uk-overlay {
+    cursor: pointer;
+}
+.uk-dotnav>.uk-active>* {
+    background: rgb(45, 62, 82) ;
+}
+
+.uk-dotnav>*>* {
+    background: #7C94B0;
+}
+
+.uk-slidenav-position {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.uk-dotnav {
+    padding-top: 60px;
+}
+
+.uk-slideset li {
+    text-align: center;
+}
+
+.uk-grid li > figure {
+    border-radius: 50%;
+}
+
+.uk-grid p {
+    font-size: 20px;
+    text-align: center;
+    font-family: roboto-medium;
+}
+.figure-img {
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+    -moz-filter: grayscale(50%);
+}
+
+.bkg-caption {
+    transition: all .4s ease;
+    background: rgba(45,62,82,.8);
+}
+
+.bkg-caption > h5 {
+    position: absolute;
+    top: 104px;
+    font-weight: 700;
+    font-size: 18px;
+    left: 0;
+    line-height: 24px;
+    right: 0;
+    color: #f7f7f7;
+    font-family: roboto-bold;
+}
+
+.bkg-caption > span {
+    position: absolute;
+    top: 128px;
+    font-weight: 300;
+    font-size: 14px;
+    left: 0;
+    line-height: 19px;
+    right: 0;
+    color: #f7f7f7;
+    font-family: roboto-medium;
+}

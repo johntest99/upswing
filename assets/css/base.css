@@ -1,0 +1,162 @@
+/* custom-fonts */
+@font-face {
+    font-family: roboto-regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+
+/* color */
+.text-color-white {
+    color: #fff;
+}
+
+.main-bkg-color {
+    background-color: #25ABD1;
+}
+
+.main-color {
+    color: #2d3e52;
+}
+
+/* nav */
+.nav-space {
+    padding: 10px 50px;    
+}
+
+.nav-space-items {
+    padding: 15px 50px;
+}
+
+.logo {
+    width: 144px;
+}
+
+.nav-space-items li > a {
+    font-family: roboto-regular;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    transition: all 0.4s ease;
+}
+
+.nav-space-items li > a:focus,
+.nav-space-items li:hover > a {
+    background-color: #2d3e52;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+/* buttons */
+.ups-button
+{
+    background-color: #25ABD1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: roboto-bold;
+    transition: all 0.4s ease;
+}
+
+.ups-button:hover
+{
+    background-color: #2d3e52;
+    color: white;
+    text-decoration: none;
+}
+
+/* space */
+.ups-space
+{
+    padding: 100px 0px;
+}
+
+.ups-space-up-20
+{
+    padding-top: 20px;
+}
+
+.ups-space-up-30
+{
+    padding-top: 30px;
+}
+
+.ups-space-up-40
+{
+    padding-top: 40px;
+}
+
+.ups-space-up-50
+{
+    padding-top: 50px;
+}
+
+.ups-space-up-100
+{
+    padding-top: 100px;
+}
+
+.ups-nopadding-bottom
+{
+    padding-bottom: 0px;
+}
+
+.ups-content
+{
+    padding: 10% 0px; 
+}
+
+.ups-section
+{
+    width: 85%;
+    margin: 0 auto;
+}
+/* text */
+.ups-title
+{
+    font-size: 90px;
+    font-family: roboto-bold;
+    color: #2d3e52;
+}
+
+.blue-text
+{
+    color: #25ABD1;
+}
+
+.ups-font-size-20
+{
+    font-size: 20px;
+}
+
+/* images */
+
+.parallax-background {
+    width: 100%;
+    background-attachment: fixed;
+    /* background-position: right top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
