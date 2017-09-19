@@ -184,3 +184,24 @@
     color: #f7f7f7;
     font-family: roboto-medium;
 }
+
+/* clients */
+
+.client-section-background {
+    background: #2d3e52;
+}
+
+.client-logo { 
+    display: inline-block;
+    max-width: 125px; 
+    cursor: pointer;
+ 
+}
+
+.client-logo-container {
+    vertical-align: middle;
+    line-height: 125px
+}
+.ups-content-client {
+    padding: 50px 0px;
+}
