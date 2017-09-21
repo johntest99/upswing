@@ -14,6 +14,13 @@
     src: url('../fonts/Roboto-Medium.ttf');
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
 
 /* color */
 .text-color-white {
@@ -117,6 +124,11 @@
     padding-top: 100px;
 }
 
+.ups-no-margin
+{
+    margin: 0;
+}
+
 .ups-nopadding-bottom
 {
     padding-bottom: 0px;
@@ -137,6 +149,13 @@
 {
     font-size: 90px;
     font-family: roboto-bold;
+    color: #2d3e52;
+}
+
+.ups-sub-title
+{
+    font-family: roboto-medium;
+    font-size: 40px;
     color: #2d3e52;
 }
 

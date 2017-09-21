@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="assets/uikit/css/components/slider.min.css">
     <link rel="stylesheet" href="assets/uikit/css/components/dotnav.min.css">
 
-
+    <!-- TEXT INPUT CSS STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/set2.css">
 
     <!-- CUSTOMIZED CSS STYLESHEETS -->
     <link rel="stylesheet" href="assets/css/base.css">
@@ -27,6 +29,7 @@
     <script src="assets/uikit/js/components/slideset.min.js"></script>
     <!-- <script src="assets/uikit/js/components/dotnav.min.js"></script> -->
     <script src="assets/uikit/js/components/slider.min.js"></script>
+
 
 </head>
 
@@ -92,8 +95,8 @@
                 </p>
 
                 <div class="ups-space-up-20">
-                    <a class=" ups-font-size-20 ups-button" href="">
-                            Let's get started!</a>
+                    <a class="typeform-share button ups-button" href="https://dan823.typeform.com/to/Qhkg1s" data-mode="popup" data-hide-headers=true
+                        data-hide-footer=true data-submit-close-delay="0" target="_blank">Let's get started </a>
                 </div>
             </div>
 
@@ -332,7 +335,7 @@
                             <a class="client-logo" href="">
                                 <img  src="assets/img/logo2.png" alt="">
                             </a>
-                        </li>                   
+                        </li>
                         <li class="client-logo-container">
                             <a class="client-logo" href="">
                                 <img  src="assets/img/logo3.png" alt="">
@@ -349,7 +352,135 @@
         </div>
     </section>
 
+    <section id="contact" class="ups-section">
+        <div class="ups-content">
+            <div class="uk-grid">
+                <div class="uk-width-medium-1-2 uk-width-large-1-2">
+                    <div class="title-container">
+                        <h1 class="ups-title">Contact us</h1>
+                        <h2 class="ups-sub-title ups-space-up-20">We'd love to hear from you!</h2>
+                    </div>
+                </div>
+                <div class="uk-width-medium-1-2 uk-width-large-1-2">
+                    <div class="title-container">
+                        <div>
+                                <a class="ups-cont-details" href=""><i class="uk-icon-phone"></i>
+                                    (01) 2345 678</a>
+                        </div>
+                        <div class="ups-space-up-20">
+                                <a class="ups-cont-details" href=""><i class="uk-icon-envelope"></i>
+                                    go@upswing.today</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="ups-form" action="">
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-2 uk-width-large-1-2">
+                        <div class="ups-space-up-50">
+                            <span class="ups-no-margin input input--kohana">
+                                                    <input class="input__field input__field--kohana" type="text" id="input-29" />
+                                                    <label class="input__label input__label--kohana" for="input-29">
+                                                        <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                        <span class="input__label-content input__label-content--kohana">Name</span>
+                            </label>
+                            </span>
+                        </div>
+                        <div class="ups-space-up-40">
+                            <span class="ups-no-margin input input--kohana">
+                                                    <input class="input__field input__field--kohana" type="email" id="email" />
+                                                    <label class="input__label input__label--kohana" for="email">
+                                                        <i class="fa fa-fw uk-icon-envelope icon icon--kohana"></i>
+                                                        <span class="input__label-content input__label-content--kohana">Email</span>
+                            </label>
+                            </span>
+                        </div>
+                        <div class="ups-space-up-40">
+                            <span class="ups-no-margin">
+                                                <select name="" id="select-subject">
+                                                    <option value="">Select email subject</option>
+                                                    <option value="">hello</option>
+                                                    <option value="">it's me</option>
+                                                </select>
+                                            </span>
+                        </div>
+                    </div>
+                    <div class="uk-text-center uk-width-medium-1-2 uk-width-large-1-2">
+                        <div class="ups-space-up-50">
+                            <span class="ups-no-margin input input--kohana">
+                            <textarea class="input__field input__field--kohana" name="message" id="" cols="30" rows="10"></textarea>
+                                        <label class="input__label input__label--kohana" for="message">
+                                            <i class="fa fa-fw uk-icon-envelope icon icon--kohana"></i>
+                                            <span class="input__label-content input__label-content--kohana">Message</span>
+                            </label>
+                            </span>
+                        </div>
+                        
+                        <div class="ups-space-up-20">
+                                <button type="submit" class="ups-button">
+                                        Submit
+                                    </button>
+                        </div>
 
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
+<script src="assets/js/classie.js"></script>
+<script>
+    (function () {
+        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+        if (!String.prototype.trim) {
+            (function () {
+                // Make sure we trim BOM and NBSP
+                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+                String.prototype.trim = function () {
+                    return this.replace(rtrim, '');
+                };
+            })();
+        }
+
+        [].slice.call(document.querySelectorAll('input.input__field')).forEach(function (inputEl) {
+            // in case the input is already filled..
+            if (inputEl.value.trim() !== '') {
+                classie.add(inputEl.parentNode, 'input--filled');
+            }
+
+            // events:
+            inputEl.addEventListener('focus', onInputFocus);
+            inputEl.addEventListener('blur', onInputBlur);
+        });
+
+        function onInputFocus(ev) {
+            classie.add(ev.target.parentNode, 'input--filled');
+        }
+
+        function onInputBlur(ev) {
+            if (ev.target.value.trim() === '') {
+                classie.remove(ev.target.parentNode, 'input--filled');
+            }
+        }
+
+        //typeform
+
+        var qs, js, q, s, d = document,
+            gi = d.getElementById,
+            ce = d.createElement,
+            gt = d.getElementsByTagName,
+            id = "typef_orm_share",
+            b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q)
+        }
+
+
+    })();
+</script>
 
 </html>
