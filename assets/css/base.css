@@ -139,6 +139,10 @@ body {
     padding: 10% 0px; 
 }
 
+.ups-container {
+    width: 80%;
+}
+
 .ups-section
 {
     width: 85%;

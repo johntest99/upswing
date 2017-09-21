@@ -28,7 +28,7 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.ups-container {
+.ups-banner-container {
     position: relative;
     width: 45%;
 }
@@ -288,4 +288,59 @@ select {
 
 .ups-cont-details:hover {
     color: #25ABD1;
+}
+
+/* cta-3 */
+
+#cta3 {
+    width: 100%;
+    background-color: #2d3e52;
+}
+
+.cta-text-3 {
+    font-size: 90px;
+    font-family: roboto-bold;
+    color: white;
+}
+
+/* footer */
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 0px 20px; 
+}
+
+.social-icons li > a {
+    color: #2d3e52;
+    font-size: 50px;  
+    transition: all .4s ease;
+}
+
+.social-icons li > a:hover {
+    color: #25ABD1;
+}
+
+.term-pol a,
+.term-pol span
+{
+    color: #2d3e52;
+    font-size: 35px;
+    font-family: roboto-medium;
+    transition: all .4s ease;
+}
+
+.term-pol a:hover {
+    color: #25ABD1;
+}   
+
+.footer-text h5 {
+    font-family: roboto-regular;
+    color: #2d3e52;
+    font-size: 20px;
 }
