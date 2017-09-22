@@ -34,7 +34,7 @@
 }
 
 .ups-banner-content {
-    margin-top: 250px
+    margin-top: 100px
 }
 
 .text-slide {
@@ -47,6 +47,7 @@
     font-family: roboto-bold;
     text-align: center;
     line-height: 1;
+    color: #2d3e52;
 }
 
 .cta {
@@ -343,4 +344,15 @@ select {
     font-family: roboto-regular;
     color: #2d3e52;
     font-size: 20px;
+}
+
+.screen .content-wrapper .content .text {
+    position: relative;
+    top: -140px;
+}
+
+/* typeform */
+
+.typeform-widget {
+    margin-left: 10%;
 }
