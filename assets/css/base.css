@@ -18,6 +18,11 @@ a:hover {
     text-decoration: none;
 }
 
+.logo a:hover, .logo a:focus {
+background: transparent !important;
+
+}
+
 body {
     background-color: #fff;
 }
@@ -68,6 +73,71 @@ body {
   width: 100%;
   z-index: 999;
 }
+
+/* responsive-nav */
+#mobile-menu {
+   display: inline-block;
+ 
+}
+
+.close-link, .hamburger {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    right: 40px;
+    top: 19px;
+    transition: all 0.4s ease;
+}
+
+.close-link:hover, .hamburger:hover {
+    color: #2d3e52;
+}
+
+#mobile-nav {
+    height: 100vh;
+    background-color: #2d3e52;
+    top: 60px;
+    position: fixed;
+    padding: 84px 0 0 0;
+    z-index: 1;
+}
+
+#mobile-nav ul {
+    list-style: none;
+}
+
+
+#mobile-nav ul > li {
+    color: #25ABD1;
+    font-size: 30px;
+    padding: 22px 10px;
+    font-family: roboto-bold;
+}
+.uk-close {
+    opacity: 1;
+}
+
+.social-icons-nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-icons-nav li {
+    display: inline-block;
+    padding: 20px 20px; 
+}
+
+.social-icons-nav li > a {
+    color: #2d3e52;
+    font-size: 30px;  
+    transition: all .4s ease;
+}
+
+.social-icons-nav li > a:hover {
+    color: #25ABD1;
+}
+
 
 /* buttons */
 .ups-button
@@ -183,3 +253,4 @@ body {
     background-size: cover;
     display: inline-block;
 }
+

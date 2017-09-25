@@ -33,57 +33,52 @@
 
 </head>
 
-<body class>
+<body id="home-scroll">
     <!-- FIXED TOP MENU -->
     <nav class="menu main-bkg-color uk-navbar">
         <ul class="nav-space uk-navbar-nav">
-            <li class="logo">
-                <img src="assets/img/upswing.png" alt="">
+            <li class="logo uk-animation-hover uk-animation-shake">
+                <a href="#home-scroll" data-uk-smooth-scroll><img src="assets/img/upswing.png" alt=""></a>
             </li>
         </ul>
-        <div class="uk-navbar-flip">
+        <div class="uk-navbar-flip uk-hidden-small uk-hidden-medium">
             <ul class="nav-space-items uk-navbar-nav">
-                <li class="nav-items"><a href="#">About</a></li>
-                <li class="nav-items"><a href="#">Services</a></li>
-                <li class="nav-items"><a href="#">Testimonials</a></li>
-                <li class="nav-items"><a href="#">Clients</a></li>
-                <li class="nav-items"><a href="#">Contact</a></li>
+                <li class="nav-items"><a href="#about" data-uk-smooth-scroll>About</a></li>
+                <li class="nav-items"><a href="#services" data-uk-smooth-scroll>Services</a></li>
+                <li class="nav-items"><a href="#testimony" data-uk-smooth-scroll>Testimonials</a></li>
+                <li class="nav-items"><a href="#clients" data-uk-smooth-scroll="{offset: -10px;">Clients</a></li>
+                <li class="nav-items"><a href="#contact" data-uk-smooth-scroll>Contact</a></li>
             </ul>
         </div>
+        <a href="#mobile-menu" class="tick-mobile hamburger uk-hidden-large" data-uk-toggle="{target:'.tick-mobile',animation:'uk-animation-fade'}"><i class="uk-icon-bars"></i></a>
+        <a href="#mobile-menu" class="tick-mobile close-link uk-hidden" data-uk-toggle="{target:'.tick-mobile',animation:'uk-animation-fade'}" ><i class="uk-close"></i></a>
     </nav>
+    
+    <section id="mobile-nav" class="tick-mobile uk-text-center uk-width-1-1 uk-hidden">
+            <ul>
+                <li><a class="menu-link" href="#services-anchor" data-uk-toggle="{target:'.mobile-menu',animation:'uk-animation-fade'}">About</a></li>
+                <li><a class="menu-link" href="#portfolio-anchor" data-uk-toggle="{target:'.mobile-menu',animation:'uk-animation-fade'}">Services</a></li>
+                <li><a class="menu-link" href="#clients-anchor" data-uk-toggle="{target:'.mobile-menu',animation:'uk-animation-fade'}">Testimonials</a></li>
+                <li><a class="menu-link" href="#team-anchor" data-uk-toggle="{target:'.mobile-menu',animation:'uk-animation-fade'}">Clients</a></li>
+                <li><a class="menu-link" href="#contact-anchor" data-uk-toggle="{target:'.mobile-menu',animation:'uk-animation-fade'}">Contact</a></li>
+                <li>
+                    <ul class="social-icons-nav">
+                        <li><a href="" title="share on facebook"><i class="uk-icon-facebook"></i></a></li>
+                        <li><a href="" title="share on pinterest"><i class="uk-icon-pinterest"></i></a></li>
+                        <li><a href="" title="share on tumblr"><i class="uk-icon-tumblr"></i></a></li>
+                        <li><a href="" title="share on reddit"><i class="uk-icon-reddit-alien"></i></a></li>
+                        <li><a href="" title="share on linkedin"><i class="uk-icon-linkedin"></i></a></li>
+                        <li><a href="" title="share on twitter"><i class="uk-icon-twitter"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
 
-    <!-- typeform -->
-    <!-- <div class="typeform-widget" data-url="https://dan823.typeform.com/to/Qhkg1s" data-mode="pop-up" data-transparency="50" data-hide-headers=true
-        data-hide-footer=true style="width: 100%; height: 500px;"> </div> -->
-    <!-- herobanner -->
-    <!-- <section class="overlay filter" id="herobanner" style="background-image: url('assets/img/bg-1.jpg')">
-        <div class="ups-banner-container uk-container-center">
-            <div class="ups-banner-content">
-                <ul class="text-slide uk-slideshow" data-uk-slideshow="{autoplay:true}">
-                    <li>
-                        <h1 class="banner-text text-color-white">
-                            YOUR TEAM IS UP!
-                        </h1>
-                    </li>
-                    <li>
-                        <h1 class="banner-text text-color-white">
-                            YOUR TEAM IS HERE!
-                        </h1>
-                    </li>
-                </ul>
-
-                <div class="cta">
-                    <a class="ups-button" href=""><i class="uk-icon-phone"></i>
-                    CONTACT US!</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
+<!-- nav-end -->
     <section class="ups-section" id="herobanner" style="background-image: url('assets/img/bkg-banner.jpg')">
         <div class="uk-grid ups-content uk-text-center">
-            <div class="uk-width-large-1-2">
+            <div class="uk-width-medium-1-2 uk-width-large-1-2">
                 <div class="typeform-widget" data-url="https://dan823.typeform.com/to/Qhkg1s" data-transparency="50" data-hide-headers=true
                     data-hide-footer=true style="width: 90%; height: 450px;"> </div>
                 <script>
@@ -104,7 +99,7 @@
                     })()
                 </script>
             </div>
-            <div class="uk-width-large-1-2">
+            <div class="uk-width-medium-1-2">
                 <div class="ups-banner-content">
                     <ul class="text-slide uk-slideshow" data-uk-slideshow="{autoplay:true}">
                         <li>
@@ -289,7 +284,7 @@
     </section>
 
     <!-- Testimonies -->
-    <section id="Testimony" class="ups-section">
+    <section id="testimony" class="ups-section">
         <div class="ups-content">
             <div class="title-container">
                 <h1 class="ups-title">What people say</h1>
@@ -532,41 +527,5 @@
 </body>
 
 <script src="assets/js/classie.js"></script>
-
-<script>
-    (function () {
-        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-        if (!String.prototype.trim) {
-            (function () {
-                // Make sure we trim BOM and NBSP
-                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                String.prototype.trim = function () {
-                    return this.replace(rtrim, '');
-                };
-            })();
-        }
-
-        [].slice.call(document.querySelectorAll('input.input__field')).forEach(function (inputEl) {
-            // in case the input is already filled..
-            if (inputEl.value.trim() !== '') {
-                classie.add(inputEl.parentNode, 'input--filled');
-            }
-
-            // events:
-            inputEl.addEventListener('focus', onInputFocus);
-            inputEl.addEventListener('blur', onInputBlur);
-        });
-
-        function onInputFocus(ev) {
-            classie.add(ev.target.parentNode, 'input--filled');
-        }
-
-        function onInputBlur(ev) {
-            if (ev.target.value.trim() === '') {
-                classie.remove(ev.target.parentNode, 'input--filled');
-            }
-        }
-    });
-</script>
-
+<script src="assets/js/home.js"></script>
 </html>
