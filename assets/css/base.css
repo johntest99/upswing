@@ -14,6 +14,10 @@
     src: url('../fonts/Roboto-Medium.ttf');
 }
 
+html {
+    overflow-x: hidden;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -26,6 +30,7 @@ background: transparent !important;
 body {
     background-color: #fff;
 }
+
 
 /* color */
 .text-color-white {
@@ -98,8 +103,8 @@ body {
     background-color: #2d3e52;
     top: 60px;
     position: fixed;
-    padding: 84px 0 0 0;
-    z-index: 1;
+    padding: 18px 0 0 0;
+    z-index: 999;
 }
 
 #mobile-nav ul {
@@ -107,15 +112,27 @@ body {
 }
 
 
-#mobile-nav ul > li {
-    color: #25ABD1;
-    font-size: 30px;
-    padding: 22px 10px;
+#mobile-nav ul li  {
+    padding: 25px 10px;
     font-family: roboto-bold;
+    text-transform: uppercase;   
 }
+
+#mobile-nav ul li > a  {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;  
+    transition: all .4s ease;
+}
+
+#mobile-nav ul li > a:hover  {
+    color: #25ABD1;
+}
+
+
 .uk-close {
     opacity: 1;
-}
+}   
 
 .social-icons-nav {
     list-style: none;
@@ -224,6 +241,7 @@ body {
     font-size: 90px;
     font-family: roboto-bold;
     color: #2d3e52;
+    line-height: 1em;
 }
 
 .ups-sub-title

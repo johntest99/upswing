@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
+    overflow: hidden;
 }
 
 .overlay {
@@ -69,7 +70,7 @@
 .about-text {
     font-size: 25px;
     font-family: roboto-medium;
-    line-height: 1;
+    line-height: 1.2em;
 }
 
 .about-button-cta {
@@ -93,7 +94,7 @@
     color: white;
     position: relative;
     font-size: 50px;
-    line-height: 1;
+    line-height: 1.2em;
 }
 
 /* service */
@@ -114,6 +115,31 @@
     width: 80%;
     line-height: 25px;
 }
+
+.ups-accordion {
+    width: 100%;
+}
+
+.ups-accordion .uk-accordion-title { 
+    background: transparent; 
+}
+
+.ups-icon-acc {
+    font-size: 48px;
+    padding-right: 10px;
+}
+
+.uk-accordion-title {
+    transition: all .4s ease;
+    color: #2d3e52;
+    font-family: roboto-bold;
+    font-size: 25px;
+}
+
+.uk-accordion-title:hover{
+    color: #25ABD1;
+}
+
 
 /* testimonies */
 
@@ -354,4 +380,53 @@ select {
 
 .typeform-widget {
     margin-left: 10%;
+}
+
+
+/* media queries */
+
+
+
+/* iphone 5 - 6 */
+@media only screen and (max-width: 375px) {
+    .about-text {
+        font-size: 20px;
+    }
+
+    .about-greeting {
+        font-size: 38px;
+    }
+
+    .cta-text {
+        font-size: 30px; 
+    }
+
+    .ups-title {
+        font-size: 60px;
+    }
+}
+
+/* galaxy tab */
+
+@media screen and (max-height: 1280px) {
+    /* .ups-content-mobile {
+        padding: 50% 0; 
+    } */
+}
+
+
+
+/* random screen size */
+@media only screen and (max-width: 850px) {
+    .typeform-widget {
+        margin: 45px auto !important;
+    }
+
+    .mascot-image {
+        width: 57px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
 }
