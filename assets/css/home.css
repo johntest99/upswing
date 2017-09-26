@@ -55,6 +55,7 @@
     text-align: center;
 }
 
+
 /* about */
 
 #about {
@@ -84,6 +85,7 @@
     width: 45%;
 }
 
+
 /* cta-one */
 
 #cta-one {
@@ -97,6 +99,7 @@
     line-height: 1.2em;
 }
 
+
 /* service */
 
 .service-icon {
@@ -105,11 +108,11 @@
 
 .service-title {
     font-family: roboto-bold;
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 .service-desc {
-    font-family: roboto-regular; 
+    font-family: roboto-regular;
     font-size: 18px;
     color: #2d3e52;
     width: 80%;
@@ -120,8 +123,8 @@
     width: 100%;
 }
 
-.ups-accordion .uk-accordion-title { 
-    background: transparent; 
+.ups-accordion .uk-accordion-title {
+    background: transparent;
 }
 
 .ups-icon-acc {
@@ -136,7 +139,7 @@
     font-size: 25px;
 }
 
-.uk-accordion-title:hover{
+.uk-accordion-title:hover {
     color: #25ABD1;
 }
 
@@ -146,8 +149,9 @@
 .uk-overlay {
     cursor: pointer;
 }
+
 .uk-dotnav>.uk-active>* {
-    background: rgb(45, 62, 82) ;
+    background: rgb(45, 62, 82);
 }
 
 .uk-dotnav>*>* {
@@ -167,7 +171,7 @@
     text-align: center;
 }
 
-.uk-grid li > figure {
+.uk-grid li>figure {
     border-radius: 50%;
 }
 
@@ -176,6 +180,7 @@
     /* text-align: center; */
     font-family: roboto-medium;
 }
+
 .figure-img {
     filter: grayscale(50%);
     -webkit-filter: grayscale(50%);
@@ -184,10 +189,10 @@
 
 .bkg-caption {
     transition: all .4s ease;
-    background: rgba(45,62,82,.8);
+    background: rgba(45, 62, 82, .8);
 }
 
-.bkg-caption > h5 {
+.bkg-caption>h5 {
     position: absolute;
     top: 104px;
     font-weight: 700;
@@ -199,7 +204,7 @@
     font-family: roboto-bold;
 }
 
-.bkg-caption > span {
+.bkg-caption>span {
     position: absolute;
     top: 128px;
     font-weight: 300;
@@ -211,17 +216,17 @@
     font-family: roboto-medium;
 }
 
+
 /* clients */
 
 .client-section-background {
     background: #2d3e52;
 }
 
-.client-logo { 
+.client-logo {
     display: inline-block;
-    max-width: 125px; 
+    max-width: 125px;
     cursor: pointer;
- 
 }
 
 .client-logo-container {
@@ -233,7 +238,9 @@
     padding: 50px 0px;
 }
 
+
 /* contact */
+
 .input__field {
     height: 45px;
     font-size: 20px !important;
@@ -242,19 +249,19 @@
     padding-left: 33px;
     font-family: roboto-medium;
 }
+
 .input--kohana {
     background: #F3F3F3;
 }
 
-.input__label-content
-{
+.input__label-content {
     padding: 0px;
 }
 
 .input__label--kohana,
 .icon {
     color: #9A9696;
-    line-height: 0.6;   
+    line-height: 0.6;
     font-size: 20px;
 }
 
@@ -316,6 +323,7 @@ select {
     color: #25ABD1;
 }
 
+
 /* cta-3 */
 
 #cta3 {
@@ -327,7 +335,9 @@ select {
     font-size: 90px;
     font-family: roboto-bold;
     color: white;
+    line-height: 1em;
 }
+
 
 /* footer */
 
@@ -339,22 +349,21 @@ select {
 
 .social-icons li {
     display: inline-block;
-    padding: 0px 20px; 
+    padding: 0px 20px;
 }
 
-.social-icons li > a {
+.social-icons li>a {
     color: #2d3e52;
-    font-size: 50px;  
+    font-size: 50px;
     transition: all .4s ease;
 }
 
-.social-icons li > a:hover {
+.social-icons li>a:hover {
     color: #25ABD1;
 }
 
 .term-pol a,
-.term-pol span
-{
+.term-pol span {
     color: #2d3e52;
     font-size: 35px;
     font-family: roboto-medium;
@@ -363,7 +372,7 @@ select {
 
 .term-pol a:hover {
     color: #25ABD1;
-}   
+}
 
 .footer-text h5 {
     font-family: roboto-regular;
@@ -376,6 +385,7 @@ select {
     top: -140px;
 }
 
+
 /* typeform */
 
 .typeform-widget {
@@ -386,25 +396,29 @@ select {
 /* media queries */
 
 
-
 /* iphone 5 - 6 */
+
 @media only screen and (max-width: 375px) {
     .about-text {
         font-size: 20px;
     }
-
     .about-greeting {
         font-size: 38px;
     }
-
-    .cta-text {
-        font-size: 30px; 
-    }
-
     .ups-title {
         font-size: 60px;
     }
+    .ups-cont-details {
+        font-size: 25px !important;
+    }
+    .ups-icon-acc {
+        font-size: 30px;
+    }
+    .uk-accordion-title {
+        font-size: 20px;
+    }
 }
+
 
 /* galaxy tab */
 
@@ -415,18 +429,71 @@ select {
 }
 
 
-
 /* random screen size */
+
 @media only screen and (max-width: 850px) {
     .typeform-widget {
         margin: 45px auto !important;
     }
-
     .mascot-image {
         width: 57px;
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 530px) {
+    .ups-cont-details {
+        font-size: 30px;
+    }
+    .ups-title-mobile {
+        font-size: 50px;
+    }
+    #cta3 {
+        display: none;
+    }
+    #footer {
+        background-color: #2d3e52;
+        width: 100%;
+    }
+    .social-icons li>a {
+        color: white;
+        font-size: 30px;
+    }
+    .term-pol a,
+    .term-pol span {
+        font-size: 20px;
+        color: white;
+    }
+    .footer-text h5 {
+        color: white;
+        font-size: 15px;
+    }
 
+    .cta-text {
+        font-size: 20px;
+    }
+}
+
+
+/* medium */
+
+@media only screen and (max-width: 959px) {
+    .ups-sub-title {
+        display: none;
+    }
+    .ups-cont-details {
+        padding: 0px;
+    }
+}
+
+
+/* small */
+
+@media only screen and (max-width: 767px) {
+    .cta-text-3 {
+        font-size: 40px;
+    }
+
+    .cta-text {
+        font-size: 30px;
+    }
 }

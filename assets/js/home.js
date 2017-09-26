@@ -1,6 +1,5 @@
-    (function () {
-        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-        if (!String.prototype.trim) {
+         // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+         if (!String.prototype.trim) {
             (function () {
                 // Make sure we trim BOM and NBSP
                 var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
@@ -30,4 +29,13 @@
                 classie.remove(ev.target.parentNode, 'input--filled');
             }
         }
-    });
+
+    function functionAddAttribute(){
+        $("iframe").each(
+            function(index, elem) {
+                elem.setAttribute("scrolling","no");
+            }
+        );
+   };
+   
+   window.onload = functionAddAttribute;

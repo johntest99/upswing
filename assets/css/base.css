@@ -31,6 +31,11 @@ body {
     background-color: #fff;
 }
 
+iframe html {
+    overflow-x: hidden;
+}
+
+
 
 /* color */
 .text-color-white {
