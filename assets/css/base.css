@@ -18,6 +18,14 @@ html {
     overflow-x: hidden;
 }
 
+h1 {
+    font-family: roboto-bold;
+}
+
+p {
+    font-family: roboto-regular;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -191,6 +199,11 @@ iframe html {
     padding: 100px 0px;
 }
 
+.ups-space-up-10
+{
+    padding-top: 10px;
+}
+
 .ups-space-up-20
 {
     padding-top: 20px;
@@ -276,4 +289,3 @@ iframe html {
     background-size: cover;
     display: inline-block;
 }
-
