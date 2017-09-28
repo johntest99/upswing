@@ -18,7 +18,7 @@ html {
     overflow-x: hidden;
 }
 
-h1 {
+h1,h2,h3,h4,h5 {
     font-family: roboto-bold;
 }
 
@@ -84,6 +84,11 @@ iframe html {
     background-color: #2d3e52;
     color: white;
     cursor: pointer;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    background-color: #2d3e52;
+    color: white;
 }
 
 .menu {
@@ -167,6 +172,8 @@ iframe html {
 .social-icons-nav li > a:hover {
     color: #25ABD1;
 }
+
+
 
 
 /* buttons */
@@ -289,3 +296,8 @@ iframe html {
     background-size: cover;
     display: inline-block;
 }
+
+
+
+
+

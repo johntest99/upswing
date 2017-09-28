@@ -189,9 +189,9 @@
 }
 
 .figure-img {
-    filter: grayscale(50%);
-    -webkit-filter: grayscale(50%);
-    -moz-filter: grayscale(50%);
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
     max-width: 220px;
     max-height: 220px;
     object-fit: cover;
@@ -206,35 +206,21 @@ figure .uk-overlay {
     background: rgba(45, 62, 82, .8);
 }
 
-.bkg-caption>h5 {
-    position: absolute;
-    top: 97px;
-    font-weight: 700;
-    font-size: 18px;
-    left: 0;
-    line-height: 24px;
-    right: 0;
-    color: #f7f7f7;
-    font-family: roboto-bold;
+.bkg-caption:hover {
+    opacity:0;
 }
 
-.bkg-caption>span {
+
+.play-button {
     position: absolute;
-    top: 120px;
-    font-weight: 300;
-    font-size: 14px;
-    left: 0;
-    line-height: 19px;
-    right: 0;
-    color: #f7f7f7;
-    font-family: roboto-medium;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
 }
+
 
 /* modals */
-.uk-modal {
-    overflow-y: hidden !important;
-}
-
 .modal-height-full
 {
     height: 100%;
@@ -263,6 +249,16 @@ figure .uk-overlay {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.footer-modal-container {
+    text-align: left;
+}
+
+.ftr-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
 }
 /* clients */
 
