@@ -26,7 +26,7 @@
 }
 
 .filter:before {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .ups-banner-container {
@@ -47,7 +47,7 @@
     font-family: roboto-bold;
     text-align: center;
     line-height: 1;
-    color: #2d3e52;
+    color: #25ABD1;
 }
 
 .cta {

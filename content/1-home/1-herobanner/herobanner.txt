@@ -1,0 +1,18 @@
+Title: herobanner
+
+----
+
+Slideshow: 
+
+- 
+  slideshow_text: Your team is here!
+- 
+  slideshow_text: Your team is up!
+
+----
+
+Bkg-img: business-people-office-ss-1920.jpg
+
+----
+
+Cta-button-text: 

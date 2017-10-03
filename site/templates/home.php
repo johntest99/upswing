@@ -1,11 +1,15 @@
 <?php snippet('header/header') ?>
-
     <!-- nav-end -->
-    <!-- herobanner -->
-<?php snippet('sections/herobanner') ?>
 
-    <!-- About page -->
-<?php snippet('sections/about') ?>
+
+<?php 
+$section = $page->children()->find('herobanner');
+snippet('sections/herobanner', array("data" => $section)) ?>
+
+<!-- About page -->
+<?php 
+$sectionabt = $page->children()->find('about');
+snippet('sections/about', array("data" => $sectionabt)) ?>
 
     <!-- cta1 -->
 <?php snippet('sections/ctaone') ?>

@@ -1,0 +1,232 @@
+title: Site
+pages: false
+files:
+    sortable: true
+fields:   
+    title:
+        label: Title
+        type:  text
+    contact_headline:
+        label: Contact section
+        type: headline
+    contact_title:
+        label: Contact_title
+        type: title
+    single_word_menu_link: 
+        label: Single-word menu link
+        type: text
+        icon: font
+        required: true
+        placeholder: Contact
+        help: >
+            Enter a word that will appear in the desktop menu to link to the 'Contact section'.
+            If you enter two or more words, only the first word will be displayed.
+    
+    line2:
+        type: line
+        
+    receiver_email:
+        label: Receiver Email
+        type: email
+        required: true
+        placeholder: email@email.com
+    subject:
+        label: Email Subject
+        type:  text
+        required: true
+        placeholder: "[byDesign Website] Message from byDesign Website"
+    success_msg:
+        label: Success Message
+        type:  text
+        required: true
+        placeholder: 'Success!'
+        
+    line3:
+        type: line
+
+    mapcode:
+        label: Map code
+        type: textarea
+        buttons: false
+        help: >
+            Paste here the code snippet to embed your location map into your site.
+            Map will not show if empty.
+    company:
+        label: Company name
+        type: text        
+    contact_address:
+        label: Address
+        type: textarea
+
+#### phone details
+    line2:
+        type: line
+
+    phone: 
+        label: Phone Number for Dialing
+        type: tel
+        width: 1/2 
+        placeholder: +61.2.99999999
+        required: true
+        help: >
+          Enter the phone number exactly as it should be dialed by a mobile phone.
+          Do NOT use spaces, brackets or parenthesis - use dots as separators only.
+    phone_display:
+        label: Phone Number for Display
+        type: tel
+        placeholder: (02) 9999 9999
+        required: true
+        width: 1/2
+        help: >
+          Enter the phone number as it should appear on the website. All characters allowed.
+
+### call-to-action section
+    cta_heading:
+        label: Call-to-action section
+        type: headline
+  ## 1
+
+    cta_one_line: 
+        label: Call-to-action 1
+        type: line
+    cta_one_text: 
+        label: Call-to-action 1 text
+        type: textarea
+        validate: 
+          maxLength: 140
+        help: >
+            Enter a text enticing the visitors to contact you. Hidden if empty.
+    cta_one_button_text:
+        label: Call-to-action 1 button text
+        type: text
+        placeholder: "Call us!"
+        help: >
+            Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
+    cta_one_background:
+        label: Call-to-action 1 backround image
+        type: image
+        help: > 
+            Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+            automatically resized down and cropped, as needed.
+  ## 2
+    cta_two_line: 
+        label: Call-to-action 2
+        type: line
+    cta_two_text: 
+        label: Call-to-action 2 text
+        type: textarea
+        help: >
+            Enter a text enticing the visitors to contact you. Hidden if empty.
+    cta_two_button_text:
+        label: Call-to-action 2 button text
+        type: text
+        placeholder: "Call us!"
+        validate: 
+          maxLength: 140
+        help: >
+            Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
+    cta_two_background:
+        label: Call-to-action 2 backround image
+        type: image
+        help: > 
+            Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+            automatically resized down and cropped, as needed.
+  ## 3
+
+    cta_three_line: 
+        label: Call-to-action 3
+        type: line
+    cta_three_text: 
+        label: Call-to-action 3 text
+        type: textarea
+        validate: 
+          maxLength: 140
+        help: >
+            Enter a text enticing the visitors to contact you. Hidden if empty.
+    cta_three_button_text:
+        label: Call-to-action 3 button text
+        type: text
+        placeholder: "Call us!"
+        help: >
+            Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
+    cta_three_background:
+        label: Call-to-action 3 backround image
+        type: image
+        help: > 
+            Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+            automatically resized down and cropped, as needed.
+
+
+### footer section
+    footer_heading:
+        label: Footer section
+        type: headline
+    terms_link:
+        label: Site terms and condition link
+        type: text
+    terms_text:
+        label: Site terms and condition text
+        type: textarea
+        help: >
+            Enter 'Site terms and conditions' here. Will be hidden if empty.
+    privacy_link:
+        label: Site privacy policy link
+        type: text    
+    privacy_text:
+        label: Site privacy policy text
+        type: textarea
+        help: >
+            Enter 'Site privacy policy' here. Will be hidden if empty.
+    footer_text:
+        label: Footer text
+        type: textarea
+        placeholder: © 2017, byDesign Graphics - all rights reserved.
+        help: >
+            Enter copyright details.
+
+### social media sharing
+    share_headline:
+        label: Social "Share"
+        type: headline
+    share_info:
+        label: 
+        type: info
+        text: >
+            Ticking these checkboxes will add a 'Share' item to your navigation menu,
+            allowing the visitor to share the current page on different social media sites.
+    share_facebook:
+        label: 
+        type: checkbox
+        text: show Facebook Share button
+        width: 1/2
+        icon: facebook
+    share_linkedin:
+        label: 
+        type: checkbox
+        text: show LinkedIn Share button
+        width: 1/2
+        icon: linkedin
+    share_twitter:
+        label: 
+        type: checkbox
+        text: show Twitter Share button
+        width: 1/2
+        icon: twitter
+    share_pinterest:
+        label: 
+        type: checkbox
+        text: show Pinterest Share button
+        width: 1/2
+        icon: pinterest
+    share_tumblr:
+        label: 
+        type: checkbox
+        text: show Tumblr Share button
+        width: 1/2
+        icon: tumblr
+    share_reddit:
+        label: 
+        type: checkbox
+        text: show Reddit Share button
+        width: 1/2
+        icon: reddit-alien

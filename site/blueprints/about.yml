@@ -1,0 +1,42 @@
+title: About
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+  about_greeting: 
+    label: About greeting
+    type: text
+    help: > 
+      Put a greeting header for 'about us'
+    placeholder: Hi we're upswing!
+  
+  about_desc: 
+    label: About description
+    type: textarea  
+    help: > 
+      Put a description for 'about us'
+    
+  cta_head:
+    label: Call-to-action settings
+    type: headline
+  cta_button_text:
+    label: Call-to-action button text
+    type: text
+    placeholder: "Call us!"
+    help: >
+      Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.  

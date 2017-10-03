@@ -1,1 +1,121 @@
 Title: Site Title
+
+----
+
+Contact-title: 
+
+----
+
+Single-word-menu-link: Contact
+
+----
+
+Receiver-email: email@email.com
+
+----
+
+Subject: Upswing
+
+----
+
+Success-msg: Success!
+
+----
+
+Mapcode: 
+
+----
+
+Company: 
+
+----
+
+Contact-address: 
+
+----
+
+Phone: +61.2.99999999
+
+----
+
+Phone-display: (02) 9999 9999
+
+----
+
+Cta-one-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+
+----
+
+Cta-one-button-text: Call us!
+
+----
+
+Cta-one-background: bg-1.jpg
+
+----
+
+Cta-two-text: 
+
+----
+
+Cta-two-button-text: 
+
+----
+
+Cta-two-background: 
+
+----
+
+Cta-three-text: 
+
+----
+
+Cta-three-button-text: 
+
+----
+
+Cta-three-background: 
+
+----
+
+Terms-link: 
+
+----
+
+Terms-text: 
+
+----
+
+Privacy-link: 
+
+----
+
+Privacy-text: 
+
+----
+
+Footer-text: 
+
+----
+
+Share-facebook: 0
+
+----
+
+Share-linkedin: 0
+
+----
+
+Share-twitter: 0
+
+----
+
+Share-pinterest: 0
+
+----
+
+Share-tumblr: 0
+
+----
+
+Share-reddit: 0

@@ -5,7 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Upswing</title>
+    <title><?php echo $page->title()->title() ?></title>
+
+    <meta name="description" content="<?php echo $page->description()?>">
+    <meta name="keywords" content="<?php echo $page->keywords() ?>">
+    <!-- OPENGRAPH META -->
+    <meta property="og:url" content="<?php echo $page->url() ?>">
+    <meta property="og:title" content="<?php echo $page->title() ?>">
+    <meta property="og:description" content="<?php echo $page->description() ?>">
+    <?php if($img = $page->image($page->mainImage())):?>
+      <meta property="og:image" content="<?php echo thumb($img,array('width'=>1200, 'height'=>630, 'crop'=>true))->url() ?>">
+    <?php endif?>
+
 
     <!-- UIKIT CSS STYLESHEETS -->
     <link rel="stylesheet" href="assets/uikit/css/uikit.min.css">

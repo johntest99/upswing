@@ -1,0 +1,49 @@
+title: Herobanner
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+###slideshow
+  slideshow_head:
+    label: Slideshow settings
+    type: headline
+  slideshow:
+    label: Slideshow
+    type: structure
+    modalsize: large
+    style: table
+    fields: 
+      slideshow_text:
+        label: Slideshow text
+        type: text
+        required: true
+        placeholder: Your team is here!
+
+###background-image
+  bkg_head:
+   label: Background settings
+   type: headline
+  bkg_img:
+   label: Background image
+   type: image
+   required: true
+   help: > 
+      Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+      automatically resized down and cropped, as needed.
+
+
