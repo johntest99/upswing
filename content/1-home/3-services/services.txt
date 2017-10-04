@@ -1,0 +1,28 @@
+Title: services
+
+----
+
+Service-head-title: Services
+
+----
+
+Single-word-menu-link: Services
+
+----
+
+Services-items: 
+
+- 
+  service_title: Speed
+  service_icon: user
+  service_text: |
+    Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+    Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+
+----
+
+Head-title: Services
+
+----
+
+Title-head: Services

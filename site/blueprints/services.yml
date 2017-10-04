@@ -1,0 +1,67 @@
+title: Services
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false 
+  template: false
+  url: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+  
+  #services
+
+  service_items_head:
+    label: Services
+    type: headline
+  title_head: 
+    label: Service head title
+    type: text
+    help: >
+        Text will display as the title of the 'Service' section
+  single_word_menu_link: 
+    label: Single-word menu link
+    type: text
+    icon: font
+    required: true
+    placeholder: Services
+    help: >
+        Enter a word that will appear in the desktop menu to link to the 'Sevices section'. If you
+        enter two or more words, only the first word will be displayed.
+  services_items:
+    label: Service listing
+    type: structure
+    modalsize: large
+    entry: > 
+        {{service_title}}
+    fields: 
+      service_title:
+        label: Service title
+        type: text
+        required: true
+        placeholder: Logo design
+      service_icon: 
+        label: Service icon
+        type: text
+        required: true
+        placeholder: home
+        help: >
+          Enter any FontAwesome icon name, like ‘home’, ‘car’ or ‘bolt’ - full list of icons at http://fontawesome.io/icons
+      service_text: 
+        label: Service text
+        type: textarea
+        required: true
+        placeholder: “Detailed description of the service”
+        help: It is recommended that text should be no longer than 300 characters.
+
+
+ 
+  

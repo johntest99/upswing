@@ -8,14 +8,16 @@ snippet('sections/herobanner', array("data" => $section)) ?>
 
 <!-- About page -->
 <?php 
-$sectionabt = $page->children()->find('about');
-snippet('sections/about', array("data" => $sectionabt)) ?>
+$section_abt = $page->children()->find('about');
+snippet('sections/about', array("data" => $section_abt)) ?>
 
     <!-- cta1 -->
 <?php snippet('sections/ctaone') ?>
 
     <!-- Services -->
-<?php snippet('sections/services') ?>
+<?php 
+$section_srvc = $page->children()->find('services');
+snippet('sections/services', array("data" => $section_srvc)) ?>
 
     <!-- cta2 -->
 <?php snippet('sections/ctatwo') ?>
