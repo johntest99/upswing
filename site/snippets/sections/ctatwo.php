@@ -1,11 +1,14 @@
-<section style="background-image: url('assets/img/bg-2.jpg')" id="cta-one" class=" parallax-background overlay filter">
-        <div class="ups-section ups-space uk-text-center uk-container-center">
-            <p class="cta-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rem sunt laudantium eos, ea ad veniam dignissimos repellendus
-                qui ducimus eaque accusamus minus libero? Dolor in voluptas eum dicta iusto.
-            </p>
-            <div class="uk-animation-slide-bottom ups-space-up-20">
-                <a class=" ups-font-size-20 ups-button" href=""> <i class="uk-icon-phone"></i> CALL</a>
-            </div>
+<section style="background-image:<?php if($img = $site->image($site->cta_two_background())): ?> 
+url('<?php echo thumb($img,array('width'=>1500, 'height'=>1500, 'crop'=>true))->url()?>') 
+<?php endif ?>" id="cta-one" class="parallax-background overlay filter">
+    <div class=" ups-section ups-space uk-text-center uk-container-center">
+        <div class="cta-text">
+            <?php echo $site->cta_two_text()->kt() ?>
         </div>
-    </section>
+        <?php if($site->cta_two_button_text()->isNotEmpty()): ?>
+        <div class="uk-animation-slide-bottom ups-space-up-20">
+            <a class=" ups-font-size-20 ups-button" href=""> <i class="uk-icon-phone"></i> <?php echo $site->cta_two_button_text()->html() ?></a>
+        </div>
+        <?php endif ?>
+    </div>
+</section>

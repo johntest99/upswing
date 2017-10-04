@@ -54,15 +54,15 @@ Cta-one-background: bg-1.jpg
 
 ----
 
-Cta-two-text: 
+Cta-two-text: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.
 
 ----
 
-Cta-two-button-text: 
+Cta-two-button-text: Contact us now!
 
 ----
 
-Cta-two-background: 
+Cta-two-background: coffee.jpg
 
 ----
 

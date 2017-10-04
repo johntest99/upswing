@@ -41,23 +41,6 @@ fields:
         required: true
         placeholder: 'Success!'
         
-    line3:
-        type: line
-
-    mapcode:
-        label: Map code
-        type: textarea
-        buttons: false
-        help: >
-            Paste here the code snippet to embed your location map into your site.
-            Map will not show if empty.
-    company:
-        label: Company name
-        type: text        
-    contact_address:
-        label: Address
-        type: textarea
-
 #### phone details
     line2:
         type: line
@@ -115,14 +98,14 @@ fields:
     cta_two_text: 
         label: Call-to-action 2 text
         type: textarea
+        validate: 
+          maxLength: 140
         help: >
             Enter a text enticing the visitors to contact you. Hidden if empty.
     cta_two_button_text:
         label: Call-to-action 2 button text
         type: text
         placeholder: "Call us!"
-        validate: 
-          maxLength: 140
         help: >
             Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
     cta_two_background:
