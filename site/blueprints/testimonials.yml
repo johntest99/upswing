@@ -1,0 +1,61 @@
+title: Testimonials
+pages: false
+preview: parent
+options: 
+  delete: false
+  url: false
+  template: false
+icon: newspaper-o
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+  title_head:
+    label: Title heading
+    type: text
+    placeholder: "What people say"
+
+  testimonial_items: 
+    label: Testimonials
+    type: structure
+    modalsize: large
+    entry: > 
+      {{name}} </br>
+      {{position}}
+    fields: 
+      name: 
+        label: Name
+        type: text
+        required: true
+      position: 
+        label: Position
+        type: text
+        required: true
+      profileImage: 
+        label: Profile image
+        type: image
+        required: true 
+      youtubeVideoId: 
+        label: Youtube video id
+        type: text
+        required: true
+        help: >
+          Copy the video id at the end of a youtube video link.
+      description: 
+        label: Description
+        type: textarea 
+        help: > 
+          Put a description of the testimonial. It is recommended to make the 
+          description not more then 350 Characters.  
+
+
+      
+
+      

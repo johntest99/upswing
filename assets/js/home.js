@@ -83,11 +83,12 @@
 
 
          // on preview show iframe
-         $('#ytTrigger').on('click', function (e) {
-             var idVideo = $('#modalYtFrame').data('videoid');
-             $('#modalYtFrame').html('<iframe width="90%" height="315px" src="https://www.youtube.com/embed/' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
+         $('.ytTrigger').on('click', function (e) {
+             var idVideo = $('.modalYtFrame').data('videoid');
+             $('.modalYtFrame').append('<iframe width="90%" height="315px" src="https://www.youtube.com/embed/' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
          });
+
          //on close remove
-         $('#modalClose').on('click', function () {
-             $('#modalYtFrame').empty();
+         $('.modalClose').on('click', function () {
+             $('.modalYtFrame').empty();
          });

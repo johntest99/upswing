@@ -23,7 +23,9 @@ snippet('sections/services', array("data" => $section_srvc)) ?>
 <?php snippet('sections/ctatwo') ?>
 
     <!-- Testimonies -->
-<?php snippet('sections/testimony') ?>
+<?php 
+$section_test = $page->children()->find('testimonials');
+snippet('sections/testimony', array("data" => $section_test)) ?>
     <!-- modals -->
     
     <!-- clients -->
