@@ -1,0 +1,47 @@
+title: Clients
+pages: false
+preview: parent
+options:
+  delete: false 
+  url: false
+  template: false
+icon: newspaper-o
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+  #clients
+  client_items_head:
+    label: Clients
+    type: headline
+  client_items:
+    label: Client Items
+    type: Structure
+    style: table
+    modalsize: large
+    fields:
+      client_title:
+        label: Client title
+        type: text
+        required: true
+        placeholder: Put client name here!
+      client_image: 
+        label: Client logo
+        type: image
+        required: true
+        help: > 
+          Image should be 500x500 pixels. You can upload larger pictures, but they will be 
+          automatically resized down and cropped, as needed.
+      client_link:
+        label: Link
+        type: text
+
+  
+
+

@@ -1,0 +1,18 @@
+Title: clients
+
+----
+
+Client-items: 
+
+- 
+  client_title: Sheraton
+  client_image: logo1.png
+  client_link: https://github.com/
+- 
+  client_title: BNI
+  client_image: logo3.png
+  client_link: ""
+- 
+  client_title: informa
+  client_image: logo5.png
+  client_link: ""

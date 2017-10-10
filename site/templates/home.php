@@ -29,7 +29,9 @@ snippet('sections/testimony', array("data" => $section_test)) ?>
     <!-- modals -->
     
     <!-- clients -->
-<?php snippet('sections/clients') ?>
+<?php 
+$section_client = $page->children()->find('clients');
+snippet('sections/clients',array("data" => $section_client)) ?>
 
     <!-- contact -->
 <?php snippet('sections/contact') ?>

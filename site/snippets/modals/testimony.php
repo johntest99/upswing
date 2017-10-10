@@ -13,10 +13,8 @@
                     <div class="modal-text ups-space-up-10">
                         <h1 id="modalName"><?php //echo $item->name()->html() ?></h1>
                         <article id="modalDesc">
-                    
                         </article>
                     </div>
-
                 </div>
             </div>
         </div>
