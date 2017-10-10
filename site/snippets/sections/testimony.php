@@ -37,9 +37,11 @@
                                         </i>
                                     </figcaption>
                                 </figure>
-                                <p>
-                                <?php echo excerpt($item->description(), 140) ?> 
-                                </p>
+                                <h2>
+                                   <?php echo $item->name() ?>
+                                </h2>
+                                <h5><?php echo $item->position() ?></h5>
+                                
                             </li>
                             <?php endforeach ?>
                         </ul>

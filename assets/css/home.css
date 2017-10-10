@@ -183,9 +183,18 @@
 }
 
 .uk-slideset p {
-    font-size: 17px;
+    font-size: 15px;
     /* text-align: center; */
     font-family: roboto-medium;
+}
+
+.uk-slideset h2 {
+    margin-bottom: 2px;
+    color: #25ABD1; 
+}
+
+.uk-slideset h5 {
+    margin: 0;
 }
 
 .figure-img {
