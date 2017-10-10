@@ -239,7 +239,7 @@ figure .uk-overlay {
     color: #25ABD1;
 }
 
-.modal-content .modal-text > p {
+.modal-content .modal-text > article > p {
     color: #2d3e52;
     font-size: 16px;
     font-size: 3vh;

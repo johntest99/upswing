@@ -1,4 +1,5 @@
-         // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+$(document).ready(function(){
+  // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
          if (!String.prototype.trim) {
              (function () {
                  // Make sure we trim BOM and NBSP
@@ -76,19 +77,11 @@
            )
        });
 
-
-        
-
          //================================= youtube iframe 
 
-
-         // on preview show iframe
-         $('.ytTrigger').on('click', function (e) {
-             var idVideo = $('.modalYtFrame').data('videoid');
-             $('.modalYtFrame').append('<iframe width="90%" height="315px" src="https://www.youtube.com/embed/' + idVideo + '?autoplay=true" frameborder="0" allowfullscreen></iframe>');
-         });
-
-         //on close remove
+         
          $('.modalClose').on('click', function () {
              $('.modalYtFrame').empty();
          });
+
+     });

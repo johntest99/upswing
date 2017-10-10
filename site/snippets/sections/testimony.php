@@ -13,7 +13,24 @@
                             foreach($testimonial_data as $item):
                         ?>
                             <li>
-                                <figure id="" class="ytTrigger uk-overlay" data-uk-modal="{target:'#<?php echo str::slug($item->name())?>'}">
+                            <script>
+                            function modalFunction(id,img,name,desc){
+                                $("#modalName").html(name);
+                                $('#modalDesc').html(desc);
+                                $("#modalImage").attr("src",img);
+                                $('<iframe width="90%" height="315px" src="http://www.youtube.com/embed/'+ id +'?autoplay=1" frameborder="0" allowfullscreen></iframe>').appendTo("#myFrame");
+                            }
+                            </script>
+                            <?php 
+                            $myid = $item->youtubeVideoId();
+                            if($img = $data->image($item->profileImage())) {
+                            $myimg = thumb($img,array('width'=>1300, 'height'=>1500, 'crop'=>true))->url(); 
+                            $modalName = $item->name();
+                            $modalDesc = $item->description()->kt();
+                            }
+                            ?>
+                                
+                                <figure id="" class="ytTrigger uk-overlay" onClick="modalFunction('<?php echo $myid; ?>','<?php echo $myimg; ?>','<?php echo $modalName; ?>','<?php echo $modalDesc; ?>')" data-uk-modal="{target:'#myModal'}" >
                                     <img class="figure-img" src="<?php if($img = $data->image($item->profileImage())){ echo thumb($img,array('width'=>250, 'height'=>250, 'crop'=>true))->url(); } ?>" width="250" height="250" alt="<?php echo $item->name()->title() ?>" width="250" height="250" alt="">
                                     <figcaption class="bkg-caption uk-overlay-hover uk-overlay-panel">
                                         <i class="uk-icon-youtube-play play-button">
