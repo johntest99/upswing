@@ -54,9 +54,13 @@
     </div>
 
     <div class="term-pol ups-space-up-20">
-        <a href="" data-uk-modal="{target:'#terms'}">Terms and conditions</a>
-        <span>|</span>
-        <a href="" data-uk-modal="{target:'#privacy'}">Privacy policy</a>
+        <?php if($site->terms_text()->isNotEmpty()) {?>
+            <a data-uk-modal="{target:'#terms'}"><?php echo $site->terms_title()->title() ?></a>
+        <?php } if($site->terms_text()->isNotEmpty() and $site->privacy_text()->isNotEmpty()){ ?>
+            <span>|</span>
+        <?php } if($site->privacy_text()->isNotEmpty()){ ?>
+            <a data-uk-modal="{target:'#privacy'}"><?php echo $site->privacy_title()->title() ?></a>
+        <?php } ?>
     </div>
 
     <!-- privacy modal -->
@@ -64,9 +68,8 @@
     <!-- terms modal -->
 <?php snippet('modals/terms') ?>
 
-
     <div class="footer-text ups-space-up-20">
-        <h5>&copy; 2017 Upswing, all rights reserved</h5>
+        <h5><?php echo $site->footer_text() ?></h5>
     </div>
 </div>
 </section>

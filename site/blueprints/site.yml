@@ -149,16 +149,16 @@ fields:
     footer_heading:
         label: Footer section
         type: headline
-    terms_link:
-        label: Site terms and condition link
+    terms_title:
+        label: Site terms and condition title
         type: text
     terms_text:
         label: Site terms and condition text
         type: textarea
         help: >
             Enter 'Site terms and conditions' here. Will be hidden if empty.
-    privacy_link:
-        label: Site privacy policy link
+    privacy_title:
+        label: Site privacy policy title
         type: text    
     privacy_text:
         label: Site privacy policy text
@@ -168,7 +168,7 @@ fields:
     footer_text:
         label: Footer text
         type: textarea
-        placeholder: © 2017, byDesign Graphics - all rights reserved.
+        placeholder: © 2017, Upswing - all rights reserved.
         help: >
             Enter copyright details.
 
