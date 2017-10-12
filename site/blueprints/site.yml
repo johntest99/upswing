@@ -17,8 +17,8 @@ fields:
         label: Contact text
         type: text
         placeholder: "We'd love to hear from you!"
-    single_word_menu_link: 
-        label: Single-word menu link
+    contact_navigation_link: 
+        label: Navigation link
         type: text
         icon: font
         required: true
@@ -186,26 +186,32 @@ fields:
         label: Facebook
         type: text
         width: 1/2
+        icon: facebook
     social_twitter: 
         label: Twitter
         type: text
         width: 1/2
+        icon: twitter
     social_linkedin:
         label: Linked in
         type: text
         width: 1/2 
+        icon: linkedin
     social_youtube:
         label: Youtube
         type: text
         width: 1/2
+        icon: youtube
     social_pinterest: 
         label: Pinterest
         type: text
-        width: 1/2 
+        width: 1/2
+        icon: pinterest 
     social_instagram: 
         label: Instagram
         type: text
         width: 1/2
+        icon: instagram
 
     
     

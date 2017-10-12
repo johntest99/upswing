@@ -17,6 +17,16 @@ fields:
     label: Title
     type: title
 
+  navigation_link: 
+    label: navigation link
+    type: text
+    icon: font
+    required: true
+    placeholder: Testimonies
+    help: >
+        Enter a word that will appear in the desktop menu to link to the 'Testimonies'. If you
+        enter two or more words, only the first word will be displayed.
+
   title_head:
     label: Title heading
     type: text

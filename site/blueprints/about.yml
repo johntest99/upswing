@@ -25,6 +25,16 @@ fields:
       Put a greeting header for 'about us'
     placeholder: Hi we're upswing!
   
+  navigation_link: 
+    label: navigation link
+    type: text
+    icon: font
+    required: true
+    placeholder: About
+    help: >
+        Enter a word that will appear in the desktop menu to link to the 'About section'. If you
+        enter two or more words, only the first word will be displayed.
+
   about_desc: 
     label: About description
     type: textarea  

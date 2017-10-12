@@ -16,6 +16,16 @@ fields:
   title:
     label: Title
     type: title
+
+  navigation_link: 
+    label: navigation link
+    type: text
+    icon: font
+    required: true
+    placeholder: Clients
+    help: >
+        Enter a word that will appear in the desktop menu to link to the 'clients section'. If you
+        enter two or more words, only the first word will be displayed.
   #clients
   client_items_head:
     label: Clients

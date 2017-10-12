@@ -27,8 +27,8 @@ fields:
     type: text
     help: >
         Text will display as the title of the 'Service' section
-  single_word_menu_link: 
-    label: Single-word menu link
+  navigation_link: 
+    label: Navigation link
     type: text
     icon: font
     required: true
@@ -36,6 +36,7 @@ fields:
     help: >
         Enter a word that will appear in the desktop menu to link to the 'Sevices section'. If you
         enter two or more words, only the first word will be displayed.
+        
   services_items:
     label: Service listing
     type: structure
