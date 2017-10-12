@@ -66,11 +66,11 @@ Cta-two-background: coffee.jpg
 
 ----
 
-Cta-three-text: 
+Cta-three-text: Cough hairball on conveniently placed pants ears back wide eyed and friends are not food.
 
 ----
 
-Cta-three-button-text: 
+Cta-three-button-text: Call us!
 
 ----
 

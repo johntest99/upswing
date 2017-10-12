@@ -145,14 +145,6 @@ fields:
         placeholder: "Call us!"
         help: >
             Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
-    cta_three_background:
-        label: Call-to-action 3 backround image
-        type: image
-        help: > 
-            Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
-            automatically resized down and cropped, as needed.
-
-
 ### footer section
     footer_heading:
         label: Footer section
