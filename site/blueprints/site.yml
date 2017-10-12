@@ -10,8 +10,13 @@ fields:
         label: Contact section
         type: headline
     contact_title:
-        label: Contact_title
+        label: Contact title
         type: title
+        placeholder: Contact us! 
+    contact_text: 
+        label: Contact text
+        type: text
+        placeholder: "We'd love to hear from you!"
     single_word_menu_link: 
         label: Single-word menu link
         type: text
@@ -24,17 +29,25 @@ fields:
     
     line2:
         type: line
-        
+
+    display_email: 
+        label: Display email
+        type: email
+        placeholder: email@email.com
+        help: > 
+            The email that will be displayed on the website.    
     receiver_email:
         label: Receiver Email
         type: email
         required: true
         placeholder: email@email.com
+        help: > 
+            The email that will be used as the receiver email of the contact form.
     subject:
         label: Email Subject
         type:  text
         required: true
-        placeholder: "[byDesign Website] Message from byDesign Website"
+        placeholder: "[Upswing website] Message from Upswing Website"
     success_msg:
         label: Success Message
         type:  text

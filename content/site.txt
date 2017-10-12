@@ -2,7 +2,7 @@ Title: Site Title
 
 ----
 
-Contact-title: 
+Contact-title: Contact us!
 
 ----
 
@@ -10,7 +10,7 @@ Single-word-menu-link: Contact
 
 ----
 
-Receiver-email: email@email.com
+Receiver-email: upswing@today.com
 
 ----
 
@@ -119,3 +119,11 @@ Share-tumblr: 0
 ----
 
 Share-reddit: 0
+
+----
+
+Contact-text: Leave us a message!
+
+----
+
+Display-email: upswing@today.com

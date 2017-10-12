@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/uikit/css/components/slider.min.css">
     <link rel="stylesheet" href="assets/uikit/css/components/dotnav.min.css">
     <link rel="stylesheet" href="assets/uikit/css/components/accordion.min.css">
+    <link rel="stylesheet" href="assets/uikit/css/components/notify.min.css">
 
     <!-- TEXT INPUT CSS STYLESHEETS -->
     <link rel="stylesheet" href="assets/css/demo.css">
@@ -33,6 +34,7 @@
     <!-- CUSTOMIZED CSS STYLESHEETS -->
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/bower_components/sweetalert2/dist/sweetalert2.min.css">
 
     <!-- JS SCRIPTS -->
     <script src="assets/js/jquery.js"></script>
@@ -42,7 +44,10 @@
     <!-- <script src="assets/uikit/js/components/dotnav.min.js"></script> -->
     <script src="assets/uikit/js/components/slider.min.js"></script>
     <script src="assets/uikit/js/components/accordion.min.js"></script>
+    <script src="assets/uikit/js/components/notify.min.js"></script>
+    <script src="assets/bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
 
 </head>
 
 <?php snippet('header/navigation') ?>
+
