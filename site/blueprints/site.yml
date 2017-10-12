@@ -173,48 +173,40 @@ fields:
             Enter copyright details.
 
 ### social media sharing
-    share_headline:
-        label: Social "Share"
+    social_headline:
+        label: Social media
         type: headline
-    share_info:
+    social_info:
         label: 
         type: info
         text: >
-            Ticking these checkboxes will add a 'Share' item to your navigation menu,
-            allowing the visitor to share the current page on different social media sites.
-    share_facebook:
-        label: 
-        type: checkbox
-        text: show Facebook Share button
+            Put here the links on your social media sites. If texfield is empty,
+            the social media icon will not show.
+    social_facebook:
+        label: Facebook
+        type: text
         width: 1/2
-        icon: facebook
-    share_linkedin:
-        label: 
-        type: checkbox
-        text: show LinkedIn Share button
+    social_twitter: 
+        label: Twitter
+        type: text
         width: 1/2
-        icon: linkedin
-    share_twitter:
-        label: 
-        type: checkbox
-        text: show Twitter Share button
+    social_linkedin:
+        label: Linked in
+        type: text
+        width: 1/2 
+    social_youtube:
+        label: Youtube
+        type: text
         width: 1/2
-        icon: twitter
-    share_pinterest:
-        label: 
-        type: checkbox
-        text: show Pinterest Share button
+    social_pinterest: 
+        label: Pinterest
+        type: text
+        width: 1/2 
+    social_instagram: 
+        label: Instagram
+        type: text
         width: 1/2
-        icon: pinterest
-    share_tumblr:
-        label: 
-        type: checkbox
-        text: show Tumblr Share button
-        width: 1/2
-        icon: tumblr
-    share_reddit:
-        label: 
-        type: checkbox
-        text: show Reddit Share button
-        width: 1/2
-        icon: reddit-alien
+
+    
+    
+

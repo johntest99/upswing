@@ -127,3 +127,27 @@ Contact-text: Leave us a message!
 ----
 
 Display-email: upswing@today.com
+
+----
+
+Social-facebook: https://www.screenmeter.com/Home
+
+----
+
+Social-twitter: https://www.screenmeter.com/Home
+
+----
+
+Social-linkedin: 
+
+----
+
+Social-youtube: https://www.screenmeter.com/Home
+
+----
+
+Social-pinterest: https://www.screenmeter.com/Home
+
+----
+
+Social-instagram: https://www.screenmeter.com/Home
