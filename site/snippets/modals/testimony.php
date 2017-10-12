@@ -1,5 +1,5 @@
 <div id="myModal" class="uk-modal">
-    <div class="uk-height-viewport uk-modal-dialog uk-modal-dialog-blank">
+    <div class="uk-modal-dialog uk-modal-dialog-blank">
         <button class="modalClose uk-modal-close uk-close" type="button"></button>
         <div class="modal-height-full uk-grid">
             <div class="uk-hidden-small uk-width-medium-1-2 uk-width-large-1-2">
