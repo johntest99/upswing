@@ -134,11 +134,11 @@ Social-facebook: https://www.screenmeter.com/Home
 
 ----
 
-Social-twitter: https://www.screenmeter.com/Home
+Social-twitter: 
 
 ----
 
-Social-linkedin: 
+Social-linkedin: https://www.screenmeter.com/Home
 
 ----
 

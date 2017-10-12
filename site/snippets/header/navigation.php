@@ -28,12 +28,19 @@
         <li><a class="menu-link" href="#contact" data-uk-toggle="{target:'.tick-mobile'}">Contact</a></li>
         <li>
             <ul class="social-icons-nav">
-                <li><a href="" title="share on facebook"><i class="uk-icon-facebook"></i></a></li>
-                <li><a href="" title="share on pinterest"><i class="uk-icon-pinterest"></i></a></li>
-                <li><a href="" title="share on tumblr"><i class="uk-icon-tumblr"></i></a></li>
-                <li><a href="" title="share on reddit"><i class="uk-icon-reddit-alien"></i></a></li>
-                <li><a href="" title="share on linkedin"><i class="uk-icon-linkedin"></i></a></li>
-                <li><a href="" title="share on twitter"><i class="uk-icon-twitter"></i></a></li>
+                <?php if($site->social_facebook()->isNotEmpty()){ ?>
+                <li><a href="<?php echo $site->social_facebook() ?>" title="share on facebook"><i class="uk-icon-facebook"></i></a></li>
+                <?php } if($site->social_pinterest()->isNotEmpty()){ ?>
+                <li><a href="<?php echo $site->social_pinterest() ?>" title="share on pinterest"><i class="uk-icon-pinterest"></i></a></li>
+                <?php } if($site->social_instagram()->isNotEmpty()){ ?>
+                <li><a href="<?php echo $site->social_instagram() ?>" title="share on instagram"><i class="uk-icon-tumblr"></i></a></li>
+                <?php } if($site->social_youtube()->isNotEmpty()){ ?>               
+                <li><a href="<?php echo $site->social_youtube() ?>" title="share on youtube"><i class="uk-icon-youtube"></i></a></li>
+                <?php } if($site->social_linkedin()->isNotEmpty()){ ?>
+                <li><a href="<?php echo $site->social_linkedin() ?>" title="share on linkedin"><i class="uk-icon-linkedin"></i></a></li>
+                <?php } if($site->social_twitter()->isNotEmpty()){ ?>
+                <li><a href="<?php echo $site->social_twitter() ?>" title="share on twitter"><i class="uk-icon-twitter"></i></a></li>
+                <?php } ?>
             </ul>
         </li>
     </ul>
