@@ -1,4 +1,4 @@
-<section id="clients">
+<section id="<?php echo str::slug($data->title()->title()) ?>">
         <div class="ups-content-client client-section-background">
             <div data-uk-slider="{center:true, autoplay:true, autoplayInterval:'5000'} ">
                 <div class="uk-slider-container uk-text-center">

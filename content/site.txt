@@ -177,3 +177,7 @@ Terms-title: Terms and conditions
 ----
 
 Privacy-title: Privacy policy
+
+----
+
+Contact-navigation-link: Contact us

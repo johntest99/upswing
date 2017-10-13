@@ -1,4 +1,4 @@
-<section id="contact" class="ups-section">
+<section id="<?php echo str::slug($site->contact_title()->title()) ?>" class="ups-section">
         <div class="ups-content">
             <div class="uk-grid">
                 <div class="uk-text-center uk-width-medium-1-1 uk-width-large-1-2">

@@ -80,3 +80,7 @@ Testimonial-items:
     pink ears. Chase after silly colored
     fish toys around the house ask for
     petting play time where is my slave?
+
+----
+
+Navigation-link: Testimonies

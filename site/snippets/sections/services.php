@@ -1,4 +1,4 @@
-<section id="services" class="ups-section">
+<section id="<?php echo str::slug($data->title()->title())?>" class="ups-section">
         <div class="ups-content">
             <div class="title-container">
                 <h1 class="ups-title"><?php echo $data->title_head()->title()?></h1>

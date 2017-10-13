@@ -47,5 +47,15 @@
 
 </head>
 
-<?php snippet('header/navigation') ?>
+<?php 
+$sectionPageAbout = $page->children()->find('about');
+$sectionPageServices = $page->children()->find('services');
+$sectionPageTestimonies = $page->children()->find('testimonials');
+$sectionPageClients = $page->children()->find('clients');
+snippet('header/navigation', array(
+  "data_about" => $sectionPageAbout,
+  "data_services" => $sectionPageServices,
+  "data_testimonies" => $sectionPageTestimonies,
+  "data_clients" => $sectionPageClients
+)) ?>
 

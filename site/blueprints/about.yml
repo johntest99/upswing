@@ -26,7 +26,7 @@ fields:
     placeholder: Hi we're upswing!
   
   navigation_link: 
-    label: navigation link
+    label: Navigation link
     type: text
     icon: font
     required: true

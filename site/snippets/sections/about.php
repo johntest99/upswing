@@ -1,4 +1,4 @@
-<section id="about" class="ups-section">
+<section id="<?php echo str::slug($data->title()->title()) ?>" class="ups-section">
         <div class="ups-space uk-grid">
             <div class="uk-width-small-1-1 uk-width-medium-1-1 uk-width-large-1-2">
                 <h1 class="about-greeting">

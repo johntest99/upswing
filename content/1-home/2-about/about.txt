@@ -1,4 +1,4 @@
-Title: about
+Title: About
 
 ----
 
@@ -11,3 +11,7 @@ About-desc: Lorem Ipsum is simply dummy text of the printing and typesetting ind
 ----
 
 Cta-button-text: Let's get started!
+
+----
+
+Navigation-link: About us

@@ -18,7 +18,7 @@ fields:
     type: title
 
   navigation_link: 
-    label: navigation link
+    label: Navigation link
     type: text
     icon: font
     required: true
