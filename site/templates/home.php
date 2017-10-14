@@ -1,5 +1,5 @@
 <?php snippet('header/header') ?>
-    <!-- nav-end -->
+<!-- nav-end -->
 
 
 <?php 
@@ -11,32 +11,32 @@ snippet('sections/herobanner', array("data" => $section)) ?>
 $section_abt = $page->children()->find('about');
 snippet('sections/about', array("data" => $section_abt)) ?>
 
-    <!-- cta1 -->
+<!-- cta1 -->
 <?php snippet('sections/ctaone') ?>
 
-    <!-- Services -->
+<!-- Services -->
 <?php 
 $section_srvc = $page->children()->find('services');
 snippet('sections/services', array("data" => $section_srvc)) ?>
 
-    <!-- cta2 -->
+<!-- cta2 -->
 <?php snippet('sections/ctatwo') ?>
 
-    <!-- Testimonies -->
+<!-- Testimonies -->
 <?php 
 $section_test = $page->children()->find('testimonials');
 snippet('sections/testimony', array("data" => $section_test)) ?>
-    <!-- modals -->
-    
-    <!-- clients -->
+<!-- modals -->
+
+<!-- clients -->
 <?php 
 $section_client = $page->children()->find('clients');
 snippet('sections/clients',array("data" => $section_client)) ?>
 
-    <!-- contact -->
+<!-- contact -->
 <?php snippet('sections/contact') ?>
 
-    <!-- ctathree -->
+<!-- ctathree -->
 <?php snippet('sections/ctathree') ?>
 
 <?php snippet('footer') ?>

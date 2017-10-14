@@ -295,7 +295,23 @@ iframe html {
     display: inline-block;
 }
 
+/* error */
 
+.error-title {
+    color: #25ABD1;
+    font-size: 100px;
+    line-height: 1;    
+}
+
+.error-container {
+ padding: 10% 0;
+}
+
+.error-container p {
+    font-size: 25px;
+    line-height: 1;
+    padding-top: 10px;
+}
 
 
 
