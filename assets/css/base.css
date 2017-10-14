@@ -295,7 +295,7 @@ iframe html {
     display: inline-block;
 }
 
-/* error */
+/* error and help page styles */
 
 .error-title {
     color: #25ABD1;
@@ -303,7 +303,7 @@ iframe html {
     line-height: 1;    
 }
 
-.error-container {
+.error-container, .help-container {
  padding: 10% 0;
 }
 

@@ -29,7 +29,11 @@ fields:
 
   help_heading:
     label: Help Page
-    type: headline 
+    type: headline
+
+  help_title: 
+    label: Help title
+    type: text 
   help_text: 
     label: Help text
     type: textarea

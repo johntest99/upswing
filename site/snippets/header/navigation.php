@@ -3,8 +3,14 @@
 <nav class="menu main-bkg-color uk-navbar">
     <ul class="nav-space uk-navbar-nav">
         <li class="logo uk-animation-hover uk-animation-shake">
-            <a href="#home-scroll" data-uk-smooth-scroll><img src="assets/img/upswing.png" alt=""></a>
-        </li>
+            <?php if($page->isHomePage()) { ?>
+                <a href="#home-scroll" data-uk-smooth-scroll><img src="assets/img/upswing.png" alt=""></a>
+            <?php } 
+            else {
+            ?>
+                <a href="<?php echo $site->url() ?>"><img src="assets/img/upswing.png" alt=""></a>
+            <?php } ?>
+       </li>
     </ul>
     <div class="uk-navbar-flip uk-hidden-small uk-hidden-medium" data-uk-scrollspy-nav="{closest:'li'}">
     <?php if($page->isHomePage()) { ?>
