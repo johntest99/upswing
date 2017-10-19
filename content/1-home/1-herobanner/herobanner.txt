@@ -5,9 +5,9 @@ Title: herobanner
 Slideshow: 
 
 - 
-  slideshow_text: Your team is here!
+  slideshow_text: An awesome team!
 - 
-  slideshow_text: Your team is up!
+  slideshow_text: Your team is here!
 
 ----
 

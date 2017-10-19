@@ -7,7 +7,7 @@ url('<?php echo thumb($img,array('width'=>1500, 'height'=>1500, 'crop'=>true))->
         </div>
         <?php if($site->cta_two_button_text()->isNotEmpty()): ?>
         <div class="uk-animation-slide-bottom ups-space-up-20">
-            <a class=" ups-font-size-20 ups-button" href=""> <i class="uk-icon-phone"></i> <?php echo $site->cta_two_button_text()->html() ?></a>
+            <a class=" ups-font-size-20 ups-button" href="tel:<?php echo $site->phone() ?>"> <i class="uk-icon-phone"></i> <?php echo $site->cta_two_button_text()->html() ?></a>
         </div>
         <?php endif ?>
     </div>

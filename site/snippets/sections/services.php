@@ -8,13 +8,13 @@
         $serviceData = $data->services_items()->toStructure(); 
         foreach($serviceData as $item):
         ?>
-                <div class="uk-width-1-3 ups-space-up-40">
+                <div class="uk-width-1-3">
                     <h2 class="service-title blue-text">
                         <i class="service-icon uk-icon-<?php echo $item->service_icon() ?>"></i>
                         <?php echo $item->service_title()->title() ?>
                     </h2>
 
-                    <div class="ups-space-up-10 service-desc">
+                    <div class="service-desc">
                         <?php echo $item->service_text()->kt()?>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                     <div class="uk-width-small-1-1">
                         <div class="uk-accordion-title">
                             <span class="img-con">
-                                <i class="ups-icon-acc uk-icon-<?php echo $item->service_icon() ?>"></i>
+                                <i class="ups-icon-acc uk-icon-<?php echo $item->service_icon()->lower() ?>"></i>
                             </span>
                             <span class="ups-icon-text"><?php echo $item->service_title()->title()?></span>
                         </div>

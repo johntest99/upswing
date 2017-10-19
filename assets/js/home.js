@@ -34,7 +34,7 @@ $(document).ready(function(){
 // iframes =======================================================================================================
          // add scrolling no attribute to typeform iframe
          function functionAddAttribute() {
-             $('iframe').each(
+             $('.typeform-widget iframe').each(
                  function (index, elem) {
                      elem.setAttribute("scrolling", "no");
                  }
@@ -61,21 +61,21 @@ $(document).ready(function(){
         });
 
         //mouse enter and mouse leave functions for birdeye
-        $('.birdeye-container').mouseenter(function () {
-            $('.birdeye-container iframe').each(
-                function (index, elem) {
-                    elem.setAttribute("scrolling", "yes");
-                }
-            )
-        });
+    //     $('.birdeye-container').mouseenter(function () {
+    //         $('.birdeye-container iframe').each(
+    //             function (index, elem) {
+    //                 elem.setAttribute("scrolling", "yes");
+    //             }
+    //         )
+    //     });
 
-        $('.birdeye-container').mouseleave(function () {
-           $('.birdeye-container iframe').each(
-               function (index, elem) {
-                   elem.setAttribute("scrolling", "no");
-               }
-           )
-       });
+    //     $('.birdeye-container').mouseleave(function () {
+    //        $('.birdeye-container iframe').each(
+    //            function (index, elem) {
+    //                elem.setAttribute("scrolling", "no");
+    //            }
+    //        )
+    //    });
 
          //================================= youtube iframe 
 

@@ -26,7 +26,7 @@
 }
 
 .filter:before {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .ups-banner-container {
@@ -47,7 +47,7 @@
     font-family: roboto-bold;
     text-align: center;
     line-height: 1;
-    color: #25ABD1;
+    color: #ffffff;
 }
 
 .cta {
@@ -86,7 +86,7 @@
 }
 
 .birdeye-title {
-    padding-left: 13px;
+    padding-top: 85px;
     font-size: 30px;
     font-family: roboto-medium;
     color: #2d3e52;
@@ -109,17 +109,19 @@
 /* service */
 
 .service-icon {
-    font-size: 2em;
+    font-size: 1.5em;
+    padding-right: .2em;
 }
 
 .service-title {
     font-family: roboto-bold;
-    font-size: 30px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .service-desc {
     font-family: roboto-regular;
-    font-size: 18px;
+    font-size: 16px;
     color: #2d3e52;
     width: 80%;
     line-height: 25px;

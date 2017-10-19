@@ -6,12 +6,12 @@
                 </h1>
 
                 <div class="ups-space-up-20 uk-text-left about-text">
-                    <?php echo $data->about_desc()->kirby() ?>
+                    <?php echo $data->about_desc()->kt() ?>
                 </div>
 
                 <?php if($data->cta_button_text()->isNotEmpty()):?>
                 <div class="ups-space-up-20">
-                    <a class="button ups-button" href=""><?php echo $data->cta_button_text()->html() ?></a>
+                    <a class="button ups-button" href="#<?php echo str::slug($site->contact_title()->title()->lower())?>" data-uk-smooth-scroll>   <?php echo $data->cta_button_text()->html() ?></a>
                 </div>
                 <?php endif ?>
             </div>

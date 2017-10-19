@@ -48,7 +48,7 @@ fields:
         label: Service title
         type: text
         required: true
-        placeholder: Logo design
+        placeholder: Web development
       service_icon: 
         label: Service icon
         type: text
