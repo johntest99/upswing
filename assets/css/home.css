@@ -232,6 +232,11 @@ figure .uk-overlay {
 
 
 /* modals */
+.testimony-modal {
+    width: 85%;
+    padding: 0;
+}
+
 .modal-height-full
 {
     height: 100%;
@@ -264,6 +269,15 @@ figure .uk-overlay {
 
 .footer-modal-container {
     text-align: left;
+}
+
+.testimonial-modal-close {
+    margin: 0;
+    float: none;
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
 }
 
 .ftr-modal-close {

@@ -1,6 +1,6 @@
 <div id="myModal" class="uk-modal">
-    <div class="uk-modal-dialog uk-modal-dialog-blank">
-        <button class="modalClose uk-modal-close uk-close" type="button"></button>
+    <div class="uk-modal-dialog testimony-modal">
+        <button class="modalClose testimonial-modal-close uk-modal-close uk-close" type="button"></button>
         <div class="modal-height-full uk-grid">
             <div class="uk-hidden-small uk-width-medium-1-2 uk-width-large-1-2">
                 <img id="modalImage" class="modal-img" src="" width="100%" alt="">

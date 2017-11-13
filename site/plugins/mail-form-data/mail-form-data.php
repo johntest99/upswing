@@ -54,8 +54,8 @@ BODY;
     if($email->send()){
         // email was sent successfully
         $result['success'] = true;
-        // $result['msg'] = site()->success_msg();
-        // $result["to"] = $to;
+        $result['msg'] = site()->success_msg();
+        $result["to"] = $to;
     } else {
         // email delivery was not successful - report error
         $result['success'] = false;
